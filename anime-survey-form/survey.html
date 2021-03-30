@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+  
+  <body>
+    <header>
+      <div id="title-div" class="title">
+        <h1 id="title">Anime Survey Form</h1>
+        <p id="description">Survey about anime</p>
+      </div>
+    </header>
+    
+    <main id="main">
+      <form id="survey-form" action="#">
+        <label for="name" id="name-label">Name : </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email" id="email-label">E-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        <label for="number" id="number-label">Number : </label>
+        <input type="number" id="number" name="number" min="0" max="100" placeholder="Enter number between 0 and 100">
+        <label for="dropdown" id="dropdown-label">Select Best Waifu</label>
+        <select name="dropdown" id="dropdown">
+          <option value="Mashiron">Mashiron</option>
+          <option value="Kaori">Kaori</option>
+        </select>
+        <fieldset id="rating">
+          <legend>Rating</legend>
+          <label for="best" id="best-label">Best</label>
+          <input type="radio" id="best" name="rating" value="best">
+          <label for="great" id="great-label">Great</label>
+          <input type="radio" id="great" name="rating" value="great">
+        </fieldset>
+        
+        <fieldset>
+          <legend for="genres">Best genres</legend>
+          <label for="romance" id="romance-label">Romance</label>
+          <input type="checkbox" id="romance" name="genres" value="romance">
+          <label for="comedy" id="comedy-label">Comedy</label>
+          <input type="checkbox" id="comedy" name="genres" value="comedy">
+        </fieldset>
+        <label for="comment">Any comments?</label>
+        <textarea id="comment" name="comment" value="comment"></textarea>
+        <button type="submit" id="submit">
+      </form>
+    </main>
+    
+    <footer>
+    </footer>
+  </body>
+  
+</html>

@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(90deg, hsl(0, 100%, 50%), hsl(39, 100%, 50%));
+  padding-top: 120px;
+}
+
+main {
+  top: 500px;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(90deg, hsl(0, 100%, 50%), hsl(39, 100%, 50%));
+  z-index: 1;
+}
+
+#header-img {
+  width: 25%;
+  height: 100px;
+  background-color: transparent;
+}
+
+.nav-link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+}
+
+#form {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#submit {
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+@media (min-width: 100px) {
+  img {
+    width: 100%;
+  }
+}
